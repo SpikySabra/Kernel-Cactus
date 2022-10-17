@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>"C:\Users\10root\Desktop\fileapiisalittlebitch\x64\Release\fileapiisalittlebitch.dll" powershell.exe,notepad.exe  "C:\users\public\modify.bat" "C:\users\public\modify.csv" "C:\users\public\write.bat" "C:\users\public\write.csv" "C:\users\public\vss.bat" "C:\users\public\vss.csv" "c:\users\public\\" "1" "1" "1"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
