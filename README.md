@@ -1,7 +1,7 @@
 # Kernel-Cactus
 It's pointy and it hurts!
 
-#Disclaimer 
+# Disclaimer 
 This is a new framework still mostly at POC level for abusing CVE-2021-21551. 
 As such, this framework tempers with danegrous variables in the kernel , which may cause BSOD from time to time. 
 USING THIS IN PRODUCTION ENVIORNMENT IS RISKY! use it with all the cuation you can!
@@ -9,7 +9,7 @@ Fixes to stabilize possible BSOD's will come in the next update, although its mo
 if you are not familiar with the nature of this CVE please reffer to https://SpikySabra.com.
 
 
-#Usage 
+# Usage 
 ```
 --help								Display usage 
 
