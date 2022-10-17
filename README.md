@@ -3,6 +3,9 @@ It's pointy and it hurts!
 
 `Kernel Cactus` is a C written framework to utilize advanced attacks on Windows OS while utilising CVE-2021-21551 (dbutil_2_3.sys). 
 
+# Description
+Please Read our full [article](https://spikysabra.com) to further understand the ins and outs of all the offensive and defensive code in this repo. 
+
 # Pre - Reqs 
 In order for Kernel Cactus to work it is required that you will have Dbutil_2_3.sys installed and its service started. 
 how to do so? its your choice really. anything from sc.exe to 3rd party driver loaders is good. 
@@ -53,3 +56,9 @@ if you are not familiar with the nature of this CVE please reffer to https://Spi
 # Authors 
 [Itamar Medyoni (@T045T3)](https://www.linkedin.com/in/itamar-medyoni-b6aba6179/)
 [Matan Haim Guez (@0xs0ns3)](https://www.linkedin.com/in/matan-haim-guez-6905131b4/)
+
+# TODO 
+* Stabilize the attacks by adding refferences to kernel objects
+* Stabilize the Process hiding feature already hiding in this code 
+* Re-Factor the code to work with other types of vulnerable drivers in factory method
+* Hope the indutry patches this up :).
