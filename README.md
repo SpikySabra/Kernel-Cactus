@@ -4,7 +4,7 @@ It's pointy and it hurts!
 `Kernel Cactus` is a C written framework to utilize perform attacks on Windows OS while utilising CVE-2021-21551 (dbutil_2_3.sys). 
 
 # Description
-Please Read our full [article](https://spikysabra.com) to further understand the ins and outs of all the offensive and defensive code in this repo. 
+Please Read our full [article](https://spikysabra.gitbook.io/kernelcactus/) to further understand the ins and outs of all the offensive and defensive code in this repo. 
 
 # Pre - Reqs 
 In order for Kernel Cactus to work it is required that you will have Dbutil_2_3.sys installed and its service started. 
@@ -15,7 +15,7 @@ This is a new framework still mostly at POC level for abusing CVE-2021-21551.
 As such, this framework tempers with danegrous variables in the kernel , which may cause BSOD from time to time. 
 USING THIS IN PRODUCTION ENVIORNMENT IS RISKY! use it with all the cuation you can!
 Fixes to stabilize possible BSOD's will come in the next update, although its mostly safe to use at the moment. 
-if you are not familiar with the nature of this CVE please reffer to https://SpikySabra.com.
+if you are not familiar with the nature of this CVE please reffer to https://spikysabra.gitbook.io/kernelcactus/.
 
 
 # Usage 
