@@ -9,6 +9,12 @@ Please Read our full [article](https://spikysabra.gitbook.io/kernelcactus/) to f
 # Pre - Reqs 
 In order for Kernel Cactus to work it is required that you will have Dbutil_2_3.sys installed and its service started. 
 how to do so? its your choice really. anything from sc.exe to 3rd party driver loaders is good. 
+you can use:
+```
+sc.exe create dbutil_2_3 binpath= C:\path\to\dbutil_2_3.sys type= filesys
+
+sc.exe start dbutil_2_3
+```
 
 # Disclaimer 
 This is a new framework still mostly at POC level for abusing CVE-2021-21551. 
