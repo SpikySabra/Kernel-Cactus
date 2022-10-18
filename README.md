@@ -17,6 +17,17 @@ USING THIS IN PRODUCTION ENVIORNMENT IS RISKY! use it with all the cuation you c
 Fixes to stabilize possible BSOD's will come in the next update, although its mostly safe to use at the moment. 
 if you are not familiar with the nature of this CVE please reffer to https://spikysabra.gitbook.io/kernelcactus/.
 
+# Offsets
+in order to use KernelCactus.exe you first must extract the offsets of your Ntoskrnl.exe 
+in order to do so we have included Radare debugger and a python script. 
+first copy the contents of Radare to your desired path, and add that path th PATH enviornment variable.
+
+After that use the python script like so:
+```
+python offsetExtract.py -i <your exe> 
+```
+after you receive your CSV file , place it in the same dir of KernelCactus.exe and run it :)
+
 
 # Usage 
 ```
