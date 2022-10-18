@@ -49,7 +49,7 @@ R"(
 |  \ |___ |  \ | \| |___ |___    \__, /~~\ \__,  |  \__/ .__/                                                  
       .-.    
       |.|	  ITS POINTY AND IT HURTS!
-    /)|`|(\          www.spikysabra.com
+    /)|`|(\          https://spikysabra.gitbook.io/kernelcactus/
    (.(|'|)`)\_(o_O)_/				
 ~~~~`\`'./'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       |.|  Email:   spikysabra@gmail.com
